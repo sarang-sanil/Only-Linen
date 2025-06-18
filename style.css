@@ -62,9 +62,20 @@ nav a {
     color: #fff;
 }
 
-.collection-img {
-    border-style: solid;
-    border-radius: 10px;
+.collection-btn{
+  padding: 5px 65px;
+  background-color: #090909;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  color: #ffffff;
+}
+.collection-btn:hover{
+  background-color: #f3f1f1;
+  color: #141414;
+  border: 2px solid #0f0e0e;
 }
 
 
