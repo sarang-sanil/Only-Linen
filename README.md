@@ -22,6 +22,6 @@ Welcome to my repository for **Only Linen**, a refined web experience built for 
 - **HTML5** – Structure and content
 - **CSS3 / Bootstrap** – Styling and responsiveness
 - **JavaScript**  – Basic interactive elements
-- **Font Awesome** – Iconography
+- **Bootstrap** - Iconography, Corousel, Navbar
 - **GitHub Pages** – Hosting
 
