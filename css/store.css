@@ -1,0 +1,150 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      color: #111;
+      line-height: 1.5;
+      background-color: #f3f3f3;
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+header {
+      text-align: center;
+      border-bottom: 1px  solid #7c7979;
+}
+header img {
+      height: 80px;
+      padding-bottom: 8px;
+}
+nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 2.0rem;
+      margin-top: 1rem;
+      list-style: none;
+}
+nav a:hover,
+nav a:focus {
+      color: white !important;         
+      background-color: transparent;    
+      outline: none;                    
+}
+nav a {
+      text-decoration: none;
+      font-weight: 550;
+      color: #cbc7c7;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+}
+.navbar-bg-2{
+        background-color: black;
+}
+.dropdown-menu {
+    background-color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown-item:hover {
+    background-color: #333;
+    color: #fff;
+}
+.active {
+  color: #fff !important;
+}
+
+.store-card {
+  background-color: #e3e3e3;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  height: 95%;
+}
+.store-card:hover {
+  transform: translateY(-5px);
+}
+.store-card img {
+  background-color: #e0e0e0;
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.btn-store {
+  background-color: #000;
+  color: #fff;
+  padding: 9px 80px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn-store:hover {
+  background-color: #333;
+}
+
+footer {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+}
+footer img {
+    height: 80px;
+    width: 250px;
+}
+.social-icons a { 
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-right: 10px;
+}
+
+#scrollToTop {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      color: rgb(121, 121, 121);
+      padding: 10px 15px;
+      background: transparent;
+      font-size: 40px;
+      border: none;
+      transition: opacity 0.3s ease;
+      display: none;
+      cursor: pointer;
+}
+#scrollToTop:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 999;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}

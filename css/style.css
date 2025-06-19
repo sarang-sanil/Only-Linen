@@ -1,0 +1,279 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      color: #111;
+      line-height: 1.5;
+      background-color: #f3f3f3;
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+header {
+      text-align: center;
+      border-bottom: 1px  solid #7c7979;
+}
+header img {
+      height: 80px;
+      padding-bottom: 8px;
+}
+nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 2.0rem;
+      margin-top: 1rem;
+      list-style: none;
+}
+nav a:hover,
+nav a:focus {
+      color: white !important;         
+      background-color: transparent;    
+      outline: none;                    
+}
+nav a {
+      text-decoration: none;
+      font-weight: 550;
+      color: #cbc7c7;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+}
+.navbar-bg-2{
+        background-color: black;
+}
+.dropdown-menu {
+    background-color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown-item:hover {
+    background-color: #333;
+    color: #fff;
+}
+.active {
+  color: #fff !important;
+}
+
+
+.collection-btn{
+  padding: 5px 65px;
+  background-color: #090909;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  color: #ffffff;
+}
+.collection-btn:hover{
+  background-color: #f3f1f1;
+  color: #141414;
+  border: 2px solid #0f0e0e;
+}
+
+.benefit-card {
+    text-align: center;
+    margin: 8px;
+}
+.benefit-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.benefit-card p {
+    font-size: 14px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #7c7979;
+}
+.benefit-card img{
+  height: 40px;
+}
+
+.product-card {
+  border: solid 1px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+}
+.product-card img {
+  background-color: #eaeaea;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.product-info {
+  padding: 20px;
+}
+.product-info h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.product-info p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 6px;
+  font-style: italic;
+}
+.product-card a{
+    text-decoration: none;
+}
+
+.ourstore-card {
+  background-image: url("../images/store.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  background-position: center;  
+  min-height: 60vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+.ourstore-card h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.ourstore-card button {
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+.ourstore-card button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.news-card {
+  background-color: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.news-card:hover {
+  transform: translateY(-5px);
+}
+.news-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.news-card .date {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+.news-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.news-card .read-more{
+    color: #000;
+}
+
+.appointment-card {
+  background-image: url("../images/appointment.jpg");
+  background-size: cover;
+  min-height: 35vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.appointment-card p{
+  font-size: 18px;
+}
+.appointment-card button{
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+.appointment-card button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+footer {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+}
+footer img {
+    height: 80px;
+    width: 250px;
+}
+.social-icons a { 
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-right: 10px;
+}
+
+#scrollToTop {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      color: rgb(121, 121, 121);
+      padding: 10px 15px;
+      background: transparent;
+      font-size: 40px;
+      border: none;
+      transition: opacity 0.3s ease;
+      display: none;
+      cursor: pointer;
+}
+#scrollToTop:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 999;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
